@@ -36,13 +36,13 @@
     	<div class="row">
 	        <div class="form-group col-sm-4 col-md-3">
 	          {{ myFilter.form.date.label_tag }}
-	          {% render_field myFilter.form.date class="form-control" %}
+	          {% render_field myFilter.form.date class="form-control" placeholder="Y-m-d" %}
 	        </div>
 	    </div>
 	    <div class="row">
 	        <div class="form-group col-sm-4 col-md-3">
 	          {{ myFilter.form.author.label_tag }}
-	          {% render_field myFilter.form.author class="form-control" %}
+	          {% render_field myFilter.form.author class="form-control" placeholder="Full author name" %}
 	        </div>
 		</div>
       <button type="submit" class="btn btn-primary" style="margin-top: 10px;">
