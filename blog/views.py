@@ -3,7 +3,7 @@ from blog.models import BlogPostDB
 from django.core.paginator import EmptyPage, PageNotAnInteger, Paginator
 from blog.filters import FiltersPost
 
-BLOG_POSTS_PER_PAGE = 6
+BLOG_POSTS_PER_PAGE = 8
 
 def home_screen_view(request):
 	context={}
